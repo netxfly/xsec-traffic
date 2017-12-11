@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+tmp/
+xsec_sensor
+server/server
+server/darwin_amd64_server
+server/linux_amd64_server
+
+sensor/xsec_sensor
+
+.idea
+.DS_Store
