@@ -190,6 +190,8 @@ sudo pkg install libpcap
 
 ![](https://docs.xsec.io/images/xsec_traffic/ret_conn.png)
 
+- 以下为http 全部的请求记录，等检测功能开发完后会改为只记录疑似攻击的请求。
+
 ![](https://docs.xsec.io/images/xsec_traffic/ret_req.png)
 
 
