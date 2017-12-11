@@ -164,29 +164,29 @@ sudo pkg install libpcap
 
 ## 实战演练
 
-1. 启动server端
+- 启动server端
 
 ![](https://docs.xsec.io/images/xsec_traffic/server_serve.png)
 
-1. 以正常模式启动sensor端
+- 以正常模式启动sensor端
 
 ![](https://docs.xsec.io/images/xsec_traffic/sersor_start.png)
 
 启动后可以看到我本地电脑的有道云音乐正在对外发包。
 
-1. 在小米路由器中查到我Mix2手机的IP地址如下：
+- 在小米路由器中查到我Mix2手机的IP地址如下：
 
 ![](https://docs.xsec.io/images/xsec_traffic/mix_ip.png)
 
-1. 将我的Mix2手机手工加到恶意IP库中
+- 将我的Mix2手机手工加到恶意IP库中
 
 ![](https://docs.xsec.io/images/xsec_traffic/evil_ips.png)
 
-1. 以Arp模式启动，用电脑采集同一lan下Mix2手机的流量
+- 以Arp模式启动，用电脑采集同一lan下Mix2手机的流量
 
 ![](https://docs.xsec.io/images/xsec_traffic/sensor_arp.png)
 
-1. 可以通过server的简易后台看到检测结果：
+- 可以通过server的简易后台看到检测结果：
 
 ![](https://docs.xsec.io/images/xsec_traffic/ret_conn.png)
 
